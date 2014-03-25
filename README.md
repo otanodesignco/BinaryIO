@@ -3,7 +3,7 @@ BinaryIO
 
 php based binary file reader and writer based off [tuts.plus](http://gamedevelopment.tutsplus.com/tutorials/how-to-read-and-write-binary-data-for-your-custom-file-formats--gamedev-12159)
 
-to-do:
+**to-do:**
 
   * add huffman implementation
   * add seralizer for json and array
