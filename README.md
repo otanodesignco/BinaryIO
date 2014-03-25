@@ -9,3 +9,4 @@ php based binary file reader and writer based off [tuts.plus](http://gamedevelop
   * add seralizer for json and xml
   * add lzo or minilzo implementation for compression of data and decompression of data from files
   * add converter for text
+  * change method names in bitwriter for consistency in calls with bitreader class 
