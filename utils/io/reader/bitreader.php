@@ -86,6 +86,56 @@ class BitReader
 		return $value;
 	}
 	
+	public function ReadUInt64()
+	{
+		$value = 0;
+		
+		if( $this->endian == self::BIG_ENDIAN )
+		{
+			$value |= $this->ReadUInt8() << 32;
+			$value |= $this->ReadUInt8() << 24;
+			$value |= $this->ReadUInt8() << 16;
+			$value |= $this->ReadUInt8() << 8;
+			$value |= $this->ReadUInt8() << 0;
+		}
+		else
+		{
+			$value |= $this->ReadUInt8() << 0;
+			$value |= $this->ReadUInt8() << 8;
+			$value |= $this->ReadUInt8() << 16;
+			$value |= $this->ReadUInt8() << 24;
+			$value |= $this->ReadUInt8() << 32;
+		}
+		
+		return $value;
+	}
+	
+	public function ReadUInt128()
+	{
+		$value = 0;
+		
+		if( $this->endian == self::BIG_ENDIAN )
+		{
+			$value |= $this->ReadUInt8() << 64;
+			$value |= $this->ReadUInt8() << 32;
+			$value |= $this->ReadUInt8() << 24;
+			$value |= $this->ReadUInt8() << 16;
+			$value |= $this->ReadUInt8() << 8;
+			$value |= $this->ReadUInt8() << 0;
+		}
+		else
+		{
+			$value |= $this->ReadUInt8() << 0;
+			$value |= $this->ReadUInt8() << 8;
+			$value |= $this->ReadUInt8() << 16;
+			$value |= $this->ReadUInt8() << 24;
+			$value |= $this->ReadUInt8() << 32;
+			$value |= $this->ReadUInt8() << 64;
+		}
+		
+		return $value;
+	}
+	
 	public function ReadS8()
 	{
 		$value = $this->ReadUInt8();
@@ -110,7 +160,7 @@ class BitReader
   		return $value;
 	}
 	
-	public function ReadS24()
+	public function ReadSInt24()
 	{
   		$value = $this->ReadUInt24();
   		
@@ -122,14 +172,38 @@ class BitReader
   		return $value;
 	}
  
-// Reads a signed 32-bit integer
-	public function ReadS32()
+
+	public function ReadSInt32()
 	{
   		$value = $this->ReadUInt32();
   		
   		if( $value >> 31 == 1 )
   		{
     		$value = ~( $value ^ 0xFFFFFFFF );
+  		}
+  		
+  		return $value;
+	}
+	
+	public function ReadSInt64()
+	{
+  		$value = $this->ReadUInt64();
+  		
+  		if( $value >> 63 == 1 )
+  		{
+    		$value = ~( $value ^ 0xFFFFFFFFFF );
+  		}
+  		
+  		return $value;
+	}
+	
+	public function ReadSInt128()
+	{
+  		$value = $this->ReadUInt128();
+  		
+  		if( $value >> 127 == 1 )
+  		{
+    		$value = ~( $value ^ 0xFFFFFFFFFFFF );
   		}
   		
   		return $value;

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="C:\xampp\htdocs\bitreader\bitreader.clpprj">
+<project name="C:\Users\Rickey\Documents\GitHub\BinaryIO\bitreader.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/bitreader/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/bitreader/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="C:\xampp\htdocs\bitreader\tests.php"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php"/>
 	</lastopfiles>
 	<errors version="4.5">
 	</errors>
@@ -9,220 +12,334 @@
 		<phptree>
 			<treenode node="/reader/bitreader.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\Codelobster0.php;f10;4;31;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="/utils/endian.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\Codelobster0.php;f10;1;27;1;;C:\xampp\htdocs\bitreader\tests.php;f10;1;27;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="/utils/endian.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\Codelobster0.php;f10;1;27;1;;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f10;1;27;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="/utils/input.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\Codelobster0.php;f10;2;26;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="/utils/io/reader/bitreader.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\tests.php;f10;4;40;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="/utils/io/reader/bitreader.php;PHP:PHP Include;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f10;4;40;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="/utils/io/reader/input.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\tests.php;f10;2;36;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="/utils/io/reader/input.php;PHP:PHP Include;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f10;2;36;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="/utils/io/writer/bitwriter.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\tests.php;f10;5;40;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="/utils/io/writer/bitwriter.php;PHP:PHP Include;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f10;5;40;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="/utils/io/writer/output.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\tests.php;f10;3;37;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="/utils/io/writer/output.php;PHP:PHP Include;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f10;3;37;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="/utils/output.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\Codelobster0.php;f10;3;27;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="/writer/bitwriter.php;PHP:PHP Include;C:\xampp\htdocs\bitreader\Codelobster0.php;f10;5;31;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="BitReader;PHP:Class Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f0;2;1;136;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f0;2;1;136;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
-				<treenode node="BIG_ENDIAN;PHP:PHP Word;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;4;17;4;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f6;4;17;4;;;;vpos;;v;;r&quot;Big&quot;;;d-1,-1;;b0,0;;m">
+			<treenode node="BitReader;PHP:Class Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f0;2;1;136;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f0;2;1;136;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f0;2;1;210;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
+				<treenode node="BIG_ENDIAN;PHP:PHP Word;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;4;17;4;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f6;4;17;4;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f6;4;17;4;;;;vpos;;v;;r&quot;Big&quot;;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;11;2;17;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;11;2;17;;;;vpos;;v;;r;;d1,12;;b1,0;;mstream;;p">
-					<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f36;11;43;11;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f36;11;43;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;11;2;17;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;11;2;17;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;11;2;17;;;;vpos;;v;;r;;d1,12;;b1,0;;mstream;;p">
+					<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f36;11;43;11;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f36;11;43;11;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f36;11;43;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;13;7;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="ReadS16;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;100;2;110;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;100;2;110;;;;vpos;;v;;r;;d1,101;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f14;102;19;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f5;102;11;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;13;7;13;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f2;13;7;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ReadS24;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;112;2;122;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;112;2;122;;;;vpos;;v;;r;;d1,113;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f13;114;18;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ReadS16;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;100;2;110;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;100;2;110;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;150;2;160;;;;vpos;;v;;r;;d1,151;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f14;102;19;102;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f14;152;19;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f4;114;10;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="ReadS32;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;125;2;135;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;125;2;135;;;;vpos;;v;;r;;d1,126;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f13;127;18;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f4;127;10;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f5;102;11;102;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f5;152;11;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ReadS8;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;88;2;98;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;88;2;98;;;;vpos;;v;;r;;d1,89;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f11;90;16;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ReadS24;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;112;2;122;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;112;2;122;;;;vpos;;v;;r;;d1,163;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f13;114;18;114;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f13;164;18;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;90;8;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="ReadUInt16;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;29;2;45;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;29;2;45;;;;vpos;;v;;r;;d1,30;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;33;11;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;31;8;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f4;114;10;114;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f4;164;10;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ReadUInt24;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;46;2;64;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;46;2;64;;;;vpos;;v;;r;;d1,47;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;50;11;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ReadS32;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;125;2;135;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;125;2;135;;;;vpos;;v;;r;;d1,188;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f13;127;18;127;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f13;189;18;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;48;8;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="ReadUInt32;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;66;2;86;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;66;2;86;;;;vpos;;v;;r;;d1,67;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;70;11;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;68;8;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f4;127;10;127;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f4;189;10;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ReadUInt8;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;19;2;27;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;19;2;27;;;;vpos;;v;;r;;d1,20;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;21;11;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ReadS8;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;88;2;98;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;88;2;98;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;138;2;148;;;;vpos;;v;;r;;d1,139;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f11;90;16;90;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f11;140;16;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;90;8;90;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f2;140;8;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;8;16;8;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;8;16;8;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="ReadSInt128;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;199;2;209;;;;vpos;;v;;r;;d1,200;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f13;201;18;201;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f4;201;10;201;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="length;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;7;16;7;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="ReadSInt24;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;162;2;172;;;;vpos;;v;;r;;d1,163;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f13;164;18;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f4;164;10;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="position;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;9;18;9;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;9;18;9;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="ReadSInt32;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;175;2;185;;;;vpos;;v;;r;;d1,176;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f13;177;18;177;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f4;177;10;177;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;6;16;6;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="ReadSInt64;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;187;2;197;;;;vpos;;v;;r;;d1,188;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f13;189;18;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f4;189;10;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="ReadUInt128;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;112;2;136;;;;vpos;;v;;r;;d1,113;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f6;116;11;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f2;114;8;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="ReadUInt16;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;29;2;45;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;29;2;45;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;29;2;45;;;;vpos;;v;;r;;d1,30;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;33;11;33;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f6;33;11;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;31;8;31;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f2;31;8;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="ReadUInt24;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;46;2;64;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;46;2;64;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;46;2;64;;;;vpos;;v;;r;;d1,47;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;50;11;50;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f6;50;11;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;48;8;48;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f2;48;8;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="ReadUInt32;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;66;2;86;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;66;2;86;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;66;2;86;;;;vpos;;v;;r;;d1,67;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;70;11;70;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f6;70;11;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f2;68;8;68;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f2;68;8;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="ReadUInt64;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;88;2;110;;;;vpos;;v;;r;;d1,89;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f6;92;11;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f2;90;8;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="ReadUInt8;PHP:Function Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f8;19;2;27;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f8;19;2;27;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f8;19;2;27;;;;vpos;;v;;r;;d1,20;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f6;21;11;21;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f6;21;11;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;8;16;8;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;8;16;8;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f9;8;16;8;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="length;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;7;16;7;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;7;16;7;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f9;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="position;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;9;18;9;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;9;18;9;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f9;9;18;9;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\reader\Codelobster0.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php;f9;6;16;6;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php;f9;6;16;6;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="BitWriter;PHP:Class Name;C:\xampp\htdocs\bitreader\writer\Codelobster0.php;f0;1;1;4;;C:\xampp\htdocs\bitreader\writer\writer.php;f0;2;1;111;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f0;2;1;111;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
-				<treenode node="BIG_ENDIAN;PHP:PHP Word;C:\xampp\htdocs\bitreader\writer\writer.php;f6;4;17;4;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f6;4;17;4;;;;vpos;;v;;r&quot;Big&quot;;;d-1,-1;;b0,0;;m">
+			<treenode node="BitWriter;PHP:Class Name;C:\xampp\htdocs\bitreader\writer\Codelobster0.php;f0;1;1;4;;C:\xampp\htdocs\bitreader\writer\writer.php;f0;2;1;111;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f0;2;1;111;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f0;2;1;167;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
+				<treenode node="BIG_ENDIAN;PHP:PHP Word;C:\xampp\htdocs\bitreader\writer\writer.php;f6;4;17;4;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f6;4;17;4;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f6;4;17;4;;;;vpos;;v;;r&quot;Big&quot;;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;10;2;15;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;10;2;15;;;;vpos;;v;;r;;d1,11;;b1,0;;mdata;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f37;10;42;10;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f37;10;42;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;10;2;15;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;10;2;15;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;10;2;15;;;;vpos;;v;;r;;d1,11;;b1,0;;mdata;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f37;10;42;10;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f37;10;42;10;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f37;10;42;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f2;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f2;12;7;12;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f2;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="Stream;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;107;2;110;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;107;2;110;;;;vpos;;v;;r;;d1,108;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;109;14;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="Stream;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;107;2;110;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;107;2;110;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;163;2;166;;;;vpos;;v;;r;;d1,164;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;109;14;109;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f9;165;14;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteS16;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;90;2;93;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;90;2;93;;;;vpos;;v;;r;;d1,91;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;92;9;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;92;9;92;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;92;9;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;90;33;90;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;90;33;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;90;33;90;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;90;33;90;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f27;90;33;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteS24;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;96;2;99;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;96;2;99;;;;vpos;;v;;r;;d1,97;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;98;9;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;98;9;98;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;98;9;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;96;33;96;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;96;33;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;96;33;96;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;96;33;96;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f27;96;33;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteS32;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;102;2;105;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;102;2;105;;;;vpos;;v;;r;;d1,103;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f2;104;7;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f2;104;7;104;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f2;104;7;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;102;33;102;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;102;33;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;102;33;102;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;102;33;102;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f27;102;33;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteS8;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;84;2;87;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;84;2;87;;;;vpos;;v;;r;;d1,85;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;86;9;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;86;9;86;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;86;9;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f26;84;32;84;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f26;84;32;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f26;84;32;84;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f26;84;32;84;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f26;84;32;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteSInt128;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;158;2;161;;;;vpos;;v;;r;;d1,159;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f2;160;7;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f31;158;37;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteSInt16;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;136;2;139;;;;vpos;;v;;r;;d1,137;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;138;9;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;136;36;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteSInt24;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;142;2;145;;;;vpos;;v;;r;;d1,143;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;144;9;144;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;142;36;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteSInt32;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;148;2;151;;;;vpos;;v;;r;;d1,149;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f2;150;7;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;148;36;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteSInt64;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;153;2;156;;;;vpos;;v;;r;;d1,154;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f2;155;7;155;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;153;36;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteSInt8;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;130;2;133;;;;vpos;;v;;r;;d1,131;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;132;9;132;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f29;130;35;130;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteU16;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;26;2;41;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;26;2;41;;;;vpos;;v;;r;;d1,27;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;30;13;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;30;13;30;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;30;13;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;26;33;26;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;26;33;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;26;33;26;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;26;33;26;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f27;26;33;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteU24;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;44;2;60;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;44;2;60;;;;vpos;;v;;r;;d1,45;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f7;48;12;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f7;48;12;48;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f7;48;12;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;44;33;44;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;44;33;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;44;33;44;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;44;33;44;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f27;44;33;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteU32;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;63;2;81;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;63;2;81;;;;vpos;;v;;r;;d1,64;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f7;67;12;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f7;67;12;67;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f7;67;12;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;63;33;63;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;63;33;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f27;63;33;63;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f27;63;33;63;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f27;63;33;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="WriteU8;PHP:Function Name;C:\xampp\htdocs\bitreader\writer\writer.php;f8;17;2;23;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f8;17;2;23;;;;vpos;;v;;r;;d1,18;;b1,0;;mvalue;;p">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;22;9;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f4;22;9;22;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;22;9;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f26;17;32;17;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f26;17;32;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f26;17;32;17;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f26;17;32;17;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f26;17;32;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;7;16;7;;C:\xampp\htdocs\bitreader\writer\writer.php;f9;7;16;7;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f9;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="WriteUInt128;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;105;2;127;;;;vpos;;v;;r;;d1,106;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f7;109;12;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f31;105;37;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="position;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;8;18;8;;C:\xampp\htdocs\bitreader\writer\writer.php;f9;8;18;8;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f9;8;18;8;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="WriteUInt16;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;26;2;41;;;;vpos;;v;;r;;d1,27;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;30;13;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;26;36;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\writer\writer.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f9;6;16;6;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="WriteUInt24;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;44;2;60;;;;vpos;;v;;r;;d1,45;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f7;48;12;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;44;36;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteUInt32;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;63;2;81;;;;vpos;;v;;r;;d1,64;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f7;67;12;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;63;36;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteUInt64;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;83;2;103;;;;vpos;;v;;r;;d1,84;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f7;87;12;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f30;83;36;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WriteUInt8;PHP:Function Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f8;17;2;23;;;;vpos;;v;;r;;d1,18;;b1,0;;mvalue;;p">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f4;22;9;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f29;17;35;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;7;16;7;;C:\xampp\htdocs\bitreader\writer\writer.php;f9;7;16;7;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f9;7;16;7;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f9;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="position;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;8;18;8;;C:\xampp\htdocs\bitreader\writer\writer.php;f9;8;18;8;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f9;8;18;8;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f9;8;18;8;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\writer\writer.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\writer\writer.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php;f9;6;16;6;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php;f9;6;16;6;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Endian;PHP:Class Name;C:\xampp\htdocs\bitreader\utils\edian.php;f0;1;1;83;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;6;2;10;;;;vpos;;v;;r;;d1,7;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f2;8;7;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Endian;PHP:Class Name;C:\xampp\htdocs\bitreader\utils\edian.php;f0;1;1;83;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f0;1;1;83;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;6;2;10;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f8;6;2;10;;;;vpos;;v;;r;;d1,7;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f2;8;7;8;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f2;8;7;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="Big;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;14;2;41;;;;vpos;;v;;r;;d1,15;;b1,0;;mendian;;p">
-					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f22;14;29;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="Big;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;14;2;41;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f8;14;2;41;;;;vpos;;v;;r;;d1,15;;b1,0;;mendian;;p">
+					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f22;14;29;14;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f22;14;29;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f10;19;15;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="Little;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;44;2;70;;;;vpos;;v;;r;;d1,45;;b1,0;;mendian;;p">
-					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f25;44;32;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f10;49;15;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f10;19;15;19;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f10;19;15;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="Value;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;72;2;82;;;;vpos;;v;;r;;d1,73;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f6;74;11;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="Little;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;44;2;70;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f8;44;2;70;;;;vpos;;v;;r;;d1,45;;b1,0;;mendian;;p">
+					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f25;44;32;44;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f25;44;32;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f10;49;15;49;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f10;49;15;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="big;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f9;3;13;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="Value;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\edian.php;f8;72;2;82;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f8;72;2;82;;;;vpos;;v;;r;;d1,73;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f6;74;11;74;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f6;74;11;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="little;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f9;4;16;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="big;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f9;3;13;3;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f9;3;13;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="little;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\edian.php;f9;4;16;4;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php;f9;4;16;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Input;PHP:Class Name;C:\xampp\htdocs\bitreader\utils\data.php;f0;2;1;29;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f0;2;1;29;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;8;2;13;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;8;2;13;;;;vpos;;v;;r;;d1,9;;b1,0;;mstream;;pendian;;p">
-					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f45;8;52;8;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f51;8;58;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Input;PHP:Class Name;C:\xampp\htdocs\bitreader\utils\data.php;f0;2;1;29;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f0;2;1;29;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f0;2;1;29;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;8;2;13;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;8;2;13;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f8;8;2;13;;;;vpos;;v;;r;;d1,9;;b1,0;;mstream;;pendian;;p">
+					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f45;8;52;8;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f51;8;58;8;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f51;8;58;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f29;8;36;8;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f35;8;42;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="stream;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f29;8;36;8;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f35;8;42;8;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f35;8;42;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f2;10;7;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="Endianness;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;25;2;28;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;25;2;28;;;;vpos;;v;;r;;d1,26;;b1,0;;m">
+				<treenode node="Endianness;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;25;2;28;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;25;2;28;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f8;25;2;28;;;;vpos;;v;;r;;d1,26;;b1,0;;m">
 					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;27;14;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="Length;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;20;2;23;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;m">
+				<treenode node="Length;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;20;2;23;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;20;2;23;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f8;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;m">
 					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;22;14;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="Stream;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;15;2;18;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;15;2;18;;;;vpos;;v;;r;;d1,16;;b1,0;;m">
+				<treenode node="Stream;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\data.php;f8;15;2;18;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f8;15;2;18;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f8;15;2;18;;;;vpos;;v;;r;;d1,16;;b1,0;;m">
 					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;17;14;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="data;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;4;14;4;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f9;4;14;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="data;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;4;14;4;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f9;4;14;4;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f9;4;14;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
-				<treenode node="dataLength;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;5;20;5;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f9;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="dataLength;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;5;20;5;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f9;5;20;5;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f9;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
-				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f9;6;16;6;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\data.php;f9;6;16;6;;C:\xampp\htdocs\bitreader\utils\io\reader\input.php;f9;6;16;6;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php;f9;6;16;6;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Output;PHP:Class Name;C:\xampp\htdocs\bitreader\utils\Codelobster0.php;f0;1;1;4;;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f0;2;1;23;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f8;7;2;11;;;;vpos;;v;;r;;d1,8;;b1,0;;mendian;;p">
-					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f36;7;43;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Output;PHP:Class Name;C:\xampp\htdocs\bitreader\utils\Codelobster0.php;f0;1;1;4;;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f0;2;1;23;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f0;2;1;23;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f8;7;2;11;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f8;7;2;11;;;;vpos;;v;;r;;d1,8;;b1,0;;mendian;;p">
+					<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f36;7;43;7;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f36;7;43;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f2;9;7;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="Endianness;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f8;19;2;22;;;;vpos;;v;;r;;d1,20;;b1,0;;m">
+				<treenode node="Endianness;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f8;19;2;22;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f8;19;2;22;;;;vpos;;v;;r;;d1,20;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f9;21;14;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="Stream;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f8;13;2;16;;;;vpos;;v;;r;;d1,14;;b1,0;;m">
+				<treenode node="Stream;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f8;13;2;16;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f8;13;2;16;;;;vpos;;v;;r;;d1,14;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f9;15;14;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="data;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f9;4;14;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="data;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f9;4;14;4;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f9;4;14;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
-				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f9;5;16;5;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\io\writer\output.php;f9;5;16;5;;C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php;f9;5;16;5;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\bitreader\utils\endian.php;f8;7;2;11;;;;vpos;;v;;r;;d1,8;;b1,0;;m">
@@ -241,15 +358,15 @@
 				<treenode node="this;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\Codelobster0.php;f10;50;15;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="bitreader;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;10;10;10;;C:\xampp\htdocs\bitreader\tests.php;f0;10;10;10;;;;vposBitReader;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bitreader;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;10;10;10;;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f0;10;10;10;;;;vposBitReader;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bitwriter;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;11;10;11;;C:\xampp\htdocs\bitreader\tests.php;f0;11;10;11;;;;vposBitWriter;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bitwriter;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;11;10;11;;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f0;11;10;11;;;;vposBitWriter;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;7;7;7;;C:\xampp\htdocs\bitreader\tests.php;f0;7;7;7;;;;vposEndian;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="endian;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;7;7;7;;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f0;7;7;7;;;;vposEndian;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="input;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;8;6;8;;C:\xampp\htdocs\bitreader\tests.php;f0;8;6;8;;;;vposInput;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="input;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;8;6;8;;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f0;8;6;8;;;;vposInput;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="output;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;9;7;9;;C:\xampp\htdocs\bitreader\tests.php;f0;9;7;9;;;;vposOutput;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="output;PHP:Var Name;C:\xampp\htdocs\bitreader\Codelobster0.php;f0;9;7;9;;C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php;f0;9;7;9;;;;vposOutput;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="processors;PHP:Var Name;C:\xampp\htdocs\bitreader\utils\endian.php;f9;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 			</treenode>
@@ -263,11 +380,11 @@
 	</codestructure><todoblock>
 	</todoblock>
 	<filescache>
-		<file name="C:\xampp\htdocs\bitreader\utils\io\writer\output.php" crc="-1633408229"/>
-		<file name="C:\xampp\htdocs\bitreader\utils\io\writer\bitwriter.php" crc="1406423205"/>
-		<file name="C:\xampp\htdocs\bitreader\utils\io\reader\input.php" crc="-430148645"/>
-		<file name="C:\xampp\htdocs\bitreader\utils\io\reader\bitreader.php" crc="1324625852"/>
-		<file name="C:\xampp\htdocs\bitreader\utils\endian.php" crc="-710590741"/>
-		<file name="C:\xampp\htdocs\bitreader\tests.php" crc="-828749908"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\output.php" crc="-1633408229"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\writer\bitwriter.php" crc="-717407784"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\input.php" crc="-430148645"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\io\reader\bitreader.php" crc="1343383066"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\utils\endian.php" crc="-710590741"/>
+		<file name="C:\Users\Rickey\Documents\GitHub\BinaryIO\tests.php" crc="-828749908"/>
 	</filescache>
 </project>
